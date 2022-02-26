@@ -128,7 +128,7 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/6213d2673486beca02967.png",
                     caption=f"""
-🏷️ **Judul :** [{songname}]({link})
+**🏷️ Judul :** [{songname}]({link})
 ⌛ **Durasi :** {duration}
 👩‍💻 **Permintaan :** {m.from_user.mention}
 """,
